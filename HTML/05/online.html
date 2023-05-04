@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Consutas</title>
+</head>
+<body>
+    <h1>Consutas:</h1>
+    <form action="" method="get">
+    Paciente:<input type="text" name="nome" size="40" maxlength="40" placeholder="seu nome" autofocus>
+    <br/><br/>
+    Idade:<input type="text" name="idade" size="3" maxlength="3" placeholder="idade">
+    Sexo:<input type="radio" name="sexo" value="m">Masculino
+    <input type="radio" name="sexo" value="f">Feminino
+    <br/><br/>
+    especialidade: <select name="esp" >
+        <option value="" selected disabled>Escolha... </option>
+        <option value="cardio">Cardiologista</option>
+        <option value="clini">Clínico Geral</option>
+        <option value="oftal">Oftalmologista</option>
+        <option value="orto">Ortopedista</option>
+    </select>
+    <input type="checkbox" name="convenio" id="">Convenio? 
+    <br/><br/>
+    <!--Data: <input type="date" name="" id=""> <input type="time" name="hora" id="">-->
+    Data:<input type="text" name="dia" size="2" maxlength="2">/
+    <input type="text" name="mes" size="2" maxlength="2">/
+    <input type="text" name="ano" size="4" maxlength="4">
+    Hora:<input type="text" name="hora" size="5" maxlength="5" placeholder="00:00">
+    <br/><br/>
+    <input type="submit" value="Agendar">
+    <input type="reset" value="Apagar">
+    </form>
+    <hr/>
+    <h1>Dicas de Saúde:</h1>
+    <ul>
+        <li>Atentar para a higiene;</li>
+        <li>Beber bastente água;</li>
+        <li>Se alimentar adequadamente:</li>
+            <ul>
+                <li>Não exagerar nos alimentos de origem animal</li>
+                <li>Adicionar bastante fibras e vegetais</li>
+                <li>Um contato de emergência</li>
+            </ul>
+        <li>Ingerir de tudo um pouco;</li>
+        <li>Comer devagar;</li>
+    </ul>
+<hr>
+<h2><a href="index.html" target="" rel="noopener noreferrer">Voltar</a></h2>
+</body>
+</html>

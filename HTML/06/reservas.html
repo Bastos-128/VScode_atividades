@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+</head>
+<body>
+    <h1>Bahia</h1>
+    <table border="2">
+        <caption>Sugestão: Salvador</caption>
+        <tr>
+            <td><img src="img/Bahia1.jpg" title="Salvador" alt="Elevador Lacerda"></td>
+            <td><img src="img/Bahia2.jpg" title="Salvador" alt="Pelourinho"></td>
+            <td><img src="img/Bahia3.jpg" title="Salvador" alt="Bonfim"></td>
+        </tr>
+        <tr>
+            <th colspan="3">Diária a partir de: R$ 260,00</th>
+        </tr>
+    </table>
+    <h3>Reservar Hotel</h3>
+    <form action="" method="get">
+        Data: <input type="text" size="2" maxlength="2" placeholder="Dia" autofocus>/
+        <input type="text" size="2" maxlength="2" placeholder="Mes">/
+        <input type="text"  size="4" maxlength="4" placeholder="Ano">
+        <br/><br/>
+        Categoria:<input type="radio" name="categ" value="sim">Simples
+        <input type="radio" name="categ" value="lux">Luxo
+        <br/><br/>
+        Destino:
+        <select>
+            <option value="" selected disabled>Escolha o destino...</option>
+            <option value="se">Sudeste</option>
+            <option value="co">Centro-Oeste</option>
+            <option value="s">Sul</option>
+            <option value="ne">Nordeste</option>
+            <option value="n">Norte</option>
+        </select>
+        <br/><br/>
+        Acomodação:
+        <select name="Acomodação">
+            <option value="" selected disabled>Escolha a acomodação...</option>
+            <option value="casal">Casal</option>
+            <option value="Dupla">Dupla</option>
+            <option value="indiv">Individual</option>
+            <option value="Tripla">Tripla</option>
+        </select>
+        <input type="checkbox" name="crian">Crianças?
+        <br/><br/>
+        <input type="submit" value="Buscar">
+        <input type="reset" value="Limpar dados">              
+    </form>
+    <hr/>
+    <h3><a href="index.html" target="" rel="noopener noreferrer">Voltar</a></h3>
+</body>
+</html>
